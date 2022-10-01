@@ -1,0 +1,15 @@
+what are commands?
+A command is an instruction given to our computer by us whatever we want..In Mac os and Linux it is called "terminal" and in windows it is called "command prompt".Commands are always case-sensitive.
+
+Commands are executed in at the commandline followed by pressing the enter key..This command further passes to the shell which reads the command and executes it..
+* Shell is a method for the user to interact with the system.....
+*The default shell in linux is called "bash shell"(Bourne-Again Shell)
+There are 2 types of commands
+1.Builtin shell command:They are part of a shell.Each shell has some builtin commands.ex:pwd
+2.External/Linux command:Each external command is a separate executable program written in c or other programming language.Examples are ls,cp,man,mkdir,rmdir etc...
+In windows->'folder',In linux->'Directory'..
+cd-The cd stands for 'change diractory'..It is used to change to the directory you want to work from the present directory.
+pwd-pwd stands for 'present working directory'.
+
+
+
