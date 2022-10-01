@@ -9,7 +9,34 @@ There are 2 types of commands
 2.External/Linux command:Each external command is a separate executable program written in c or other programming language.Examples are ls,cp,man,mkdir,rmdir etc...
 In windows->'folder',In linux->'Directory'..
 cd-The cd stands for 'change diractory'..It is used to change to the directory you want to work from the present directory.
-pwd-pwd stands for 'present working directory'.
+syntax:cd <directory name>
+pwd-pwd stands for 'present working directory'.It displays the current working location or directory of a user.It displays the whole working location starting with a /.It is an builtin function.
+mkdir-with mkdir command,you can make your own directory.
+syntax:mkdir <directory name>
+creating multiple files:mkdir <directory name> <directory name>
+rmdir-rmdir command is used to remove directory in your system..
+syntax:rmdir<directory name>
+ls-the ls command is used to list of a folder...It will list out all the files in a directed path..
+ls -a:This command will enlist the whole files in a current directory including all the hidden files.Hidden files starts with . (dot) symbol.
+ls -l:It will show the list in a long list format..
+ls -hl-It will show the file sizes in human readable format.Reading file sizes is very difficult in terms of bytes..
+ls -lhs-If you want to arrange the files in descending order according to their sizes..then you can use ls -lhs command..
+ls -d*l-It is used to display only subdirectories..
+ls -li-It shows the index number of a file..
+ls -r-It shows the list in a reverse order..
+ls -R-It will display the content of the sudirectories also..(popular interview question).
+ls -Lx-It will group the files with same extensions together in the list..
+ls -lt ->(recently used ,recently modified)It sort the list by displaying recently modified files at top..
+ls ~ ->It will show the cntents of the home dirctory..
+ls ../ ->It will give the contents of home directory...
+A path is a unique location to a file or a folder  in a file system of an os.
+A path is a combination of / and alpha-numeric characters..
+Path---1.Absolute path
+       2.Relative path
+An absolute path is defined as specifying the loction of a file or a directory from the home diectory(/).
+ex:/home/rvv/satya
+A relative path is defined as path related to your current directory..It starts at your current directory.It never starts with /.
+ex:cd www
 
 
 
