@@ -1,0 +1,57 @@
+                                                        **FILE COMMANDS IN LINUX**
+ In linux everything is a file and if it is not a file,it is a process.A file doesn't include only textfiles,images and compiled programs but also partitions,hardware device drivers and directories..
+ linux considers everything as a file..
+ cp command is used to copy a file or a directory..
+ To copy a file into same directory syntax will be,
+ 1.cp <existing file name><new file name>
+ To copy a file in a different directory..
+ we have to mention the path of the destination directory..
+ cp -r ->To copy a directory along with its subdirectories..
+ cp file1 file2 directory name :To copy a multiple files or directories in a directory..
+ cp -backup :To backup the existing file without overwriting it..
+ cp -i :To copy a file interactively..(Asks for confirmation)
+ cp -l:To create a hardlink layer.
+ rm  command is used to remove a file
+ syntax:rm<filename>
+ ex:touch zebra3.txt
+    touch zebra4.txt
+ Give ls,we can find zebra3.txt and zebra4.txt..
+ then give rm zebra*(press enter)
+ * means here extension..
+ then give ls
+ all zebra files are removed
+ rm -r or -R ->To remove files recursivey..
+ rm -i ->To remove a file interactively..
+ rm -rf ->To remove a directory forcefully
+ file  command is used to determines type of file or directory..
+ touch  command is used to create a file
+ mv  command is used to  move or rename a file
+ rename  command is used to rename a file
+ Linux files are casesensitive.so test.txt and Test.txt will be  considered as 2 different files.There are multiple ways to create a file in linux...
+ o using touch command
+ o using cat command 
+ o using echo command
+ o using redirect '>' symbol
+ echo command example:
+ echo "hello" >hellocloud.html
+ cat helloworld > helloworld2.html
+Touch command:
+Touch command is a way to create empty  files .you can update the modification and access time of each file with the help of the touch command..
+1.toch<filename>
+2.touch mufile2
+touch -a :To change the access and modification time
+touch -m:It is used to only modify time of a file 
+what is the difference between mv and copy command??????????
+If we a command using mv command...this is file is not there in source..but only in destination..because..we are only moving the file..but in the case of copy command...the file is there in both source and destination..
+ mv - source(not there)   destination(there)
+ copy - source(there) destination(there)
+ mv to rename file syntax:
+ mv oldname newname
+ mv -i ->To move a file interactively..(Asks for permission)
+ mv* -Move files to a specific directory..
+ mv -suffix ->used to take backup before overwriting.
+ mv -u ->only move those files that doesn't exist..(destination lo lekapotheney file move avvuddi)
+
+ 
+                                                        
+                                                        
