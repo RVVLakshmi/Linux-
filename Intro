@@ -5,6 +5,7 @@ What is linux?
 
 Again what is operating system
        Operating system is nothing but a software that enables communication between hardware and software
+Applications -> shell -> kernel -> Hardware
  
  "Linux kernel" is the core part of the operating system....It establishes a communication between device and and software..It sends the input to the processor to get processed and brings output to the hardware to display it.
 °device management
